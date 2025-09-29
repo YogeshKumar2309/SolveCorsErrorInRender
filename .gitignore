@@ -1,0 +1,49 @@
+# Dependencies
+# Ignore node_modules folders at the root, in the client, and in the server directories.
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Build output
+# Ignore build folders from React, or transpiled server code.
+/build
+/dist
+/client/build
+/server/dist
+
+# Environment variables
+# Ignore environment files, but keep an example file in version control.
+.env
+.env.*
+!.env.example
+
+# Logs
+# Ignore log files from various tools.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Test reports and coverage
+/coverage
+/reports
+
+# Caches
+.npm
+.eslintcache
+.stylelintcache
+.prettiercache
